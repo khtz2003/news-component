@@ -1,0 +1,53 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.container {
+    display: flex;
+    border: 1px solid rgb(235, 231, 231);
+    padding: 15px;
+}
+.schoolProfile {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.detailsContainer {
+    margin-left: 20px;
+}
+.details {
+    display: flex;
+    font-size: 18px;
+}
+.title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.location {
+    margin-right: 15px;   
+}
+.fa-location-dot, .fa-phone {
+    color: rgb(166, 164, 164);
+}
+.fa-solid {
+    margin-right: 8px;
+}
+.secContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(235, 231, 231);
+}
+.fa-clock {
+    margin-left: 15px;
+    margin-right: 10px;
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50px;
+}
+@media  (max-width: 1250px) {
+    .mainContainer {
+        grid-template-columns: unset;
+    }
+}
