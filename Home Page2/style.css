@@ -1,0 +1,118 @@
+body {
+    width: 1440px;
+    font-size: 16px;
+}
+
+.mainContainer {
+    
+}
+.imgHolder {
+    position: relative;
+    width: 1440px;
+}
+.image {
+    width: 100%;
+}
+.mainTitleContainer {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 260px;
+}
+
+.mainTitleHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainTitle {
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 5px;
+    width: 600px;
+    text-align: center;
+}
+.title {
+    width: 900px;
+    text-align: center;
+}
+.fa-building-columns {
+    font-size: 25px;
+
+}
+.iconHolder {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.searchContainer {
+    padding: 12px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.lookingFor {
+    border-bottom: 1px solid lightgray;
+    margin-right: 20px;
+}
+.inputText {
+    display: block;
+    border: 0px solid;
+    padding: 5px;
+    width: 100%;
+    color: #333;
+}
+
+.inputText:focus {
+    border: none;
+    outline: none;
+}
+
+.searchIcon {
+    background-color: burlywood;
+    width: 290px;
+    padding: 9px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.fa-magnifying-glass {
+   margin-right: 8px; 
+   font-size: 18px;
+}
+.instituteContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+.inputInstitute {
+    border: 0px solid;
+
+}
+.inputInstitute:focus {
+    outline: none;
+}
+.institutionBox {
+    width: 250px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid sienna;
+    
+}
+.instituteText {
+    border-bottom: 1px solid lightgray;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.institute {
+    margin-left: 15px;
+}
